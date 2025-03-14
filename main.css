@@ -1,0 +1,14 @@
+body {
+    background-color: gold;
+    color:white;
+}
+
+#info {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+#pokemon-name{
+    font-size: 50px;
+}

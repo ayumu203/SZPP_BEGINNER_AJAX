@@ -7,10 +7,21 @@
     <title>Ajax</title>
 </head>
 <body>
+    <div id="info">
+        <form id="pokemon-form">
+            <lable>検索したいポケモンの番号を入れてね</lable>
+            <input name="pokemon-number" type="number" value="1">
+            <input id="search-button" type="button" value="検索">
+        </form>
+        <div id="pokemon-name"><p></p></div>
+        <div id="pokemon-box">
+            <img src="">
+        </div>
+    </div>
     <!-- まずはjQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- 次にライブラリ -->
      <!-- 最後に自身が記述したJS -->
-    <script src="main.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
